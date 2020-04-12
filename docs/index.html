@@ -10,14 +10,35 @@
 </head>
 <body>
   <div id="app"></div>
+    <!--在 Github 上编辑-->
+  <script src="//unpkg.com/docsify-edit-on-github/index.js"></script>
   <script>
     window.$docsify = {
       name: 'cxhello',
       repo: 'https://github.com/cxhello/docsify',
 	  loadSidebar: true,
-	  coverpage: true
+	  coverpage: true,
+      subMaxLevel: 3,
+	  auto2top: true,
+	  search: {
+        maxAge: 86400000, // 过期时间，单位毫秒，默认一天
+        paths: [], // or 'auto'
+        placeholder: '搜索',
+        noData: '找不到结果',
+        // 搜索标题的最大程级, 1 - 6
+        depth: 6
+      },
+	  plugins: [
+      	EditOnGithubPlugin.create('https://github.com/cxhello/docsify/blob/master/docs/')
+	  ]
     }
   </script>
   <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
+  <!--全文搜索-->
+  <script src="//unpkg.com/docsify/lib/plugins/search.js"></script>
+  <!--复制到剪贴板-->
+  <script src="//unpkg.com/docsify-copy-code"></script>
+  <!--字数统计-->
+  <script src="//unpkg.com/docsify-count/dist/countable.js"></script>
 </body>
 </html>
