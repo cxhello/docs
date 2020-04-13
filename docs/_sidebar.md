@@ -7,6 +7,8 @@
 - Linux
   - [docker](article/Linux/docker.md)
   - [Linux常用命令](article/Linux/Linux常用命令.md)
+- Redis
+  - [Redis安装与配置](article/Redis/Redis安装与配置.md)
 
 * Node.js
   * [Node.js安装与配置](article/Node.js/Node.js压缩版安装与配置.md)
