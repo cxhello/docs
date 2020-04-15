@@ -1,4 +1,5 @@
 - Java
+  - [单例模式](article/Java/单例模式.md)
 - 数据库
 - 框架
 - Git
@@ -14,4 +15,3 @@
 
 * Node.js
   * [Node.js安装与配置](article/Node.js/Node.js压缩版安装与配置.md)
-
