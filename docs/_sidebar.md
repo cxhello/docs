@@ -11,6 +11,7 @@
 - Nginx
   - [Nginx安装与配置](article/Nginx/Nginx安装与配置.md)
 - Redis
+  - [Redis基础](article/Redis/Redis基础.md)
   - [Redis安装与配置](article/Redis/Redis安装与配置.md)
 
 * Node.js
