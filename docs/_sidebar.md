@@ -1,6 +1,7 @@
 - Java
   - [单例模式](article/Java/单例模式.md)
 - 数据库
+  - [MySQL安装与配置](article/MySQL/MySQL安装与配置.md)
 - 框架
 - Git
   - [Git常用命令](article/git/Git常用命令.md)
