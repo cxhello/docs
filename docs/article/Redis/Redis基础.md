@@ -62,7 +62,7 @@ flushall
 
 ```bash
 # 添加键值对
-set <key>
+set <key> <value>
 # 查询对应键值
 get <key>
 # 将给定的<value>追加到原值的末尾
