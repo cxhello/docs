@@ -7,6 +7,7 @@
   - [Git常用命令](article/git/Git常用命令.md)
   - [GitHub搜索](article/git/GitHub搜索.md)
 - Linux
+  - [虚拟机安装CentOS7](article/Linux/虚拟机安装CentOS7.md)
   - [docker](article/Linux/docker.md)
   - [Linux常用命令](article/Linux/Linux常用命令.md)
 - Nginx
