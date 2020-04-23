@@ -112,53 +112,53 @@ CentOS镜像
 
 ![image-20200422233929729](https://cxhello.oss-cn-beijing.aliyuncs.com/image/image-20200422233929729.png)
 
-24. Kdump，不启用Kdump
+23. Kdump，不启用Kdump
 
 ![image-20200422234129704](https://cxhello.oss-cn-beijing.aliyuncs.com/image/image-20200422234129704.png)
 
-25. 点击“开始安装”，进入安装页面，设置“ROOT密码”
+24. 点击“开始安装”，进入安装页面，设置“ROOT密码”
 
 ![image-20200422234348303](https://cxhello.oss-cn-beijing.aliyuncs.com/image/image-20200422234348303.png)
 
 ![image-20200422234932689](https://cxhello.oss-cn-beijing.aliyuncs.com/image/image-20200422234932689.png)
 
-26. 安装完成，重新启动
+25. 安装完成，重新启动
 
 ![image-20200422235921170](https://cxhello.oss-cn-beijing.aliyuncs.com/image/image-20200422235921170.png)
 
-27. 重启完成后，同意许可
+26. 重启完成后，同意许可
 
 ![image-20200423000106243](https://cxhello.oss-cn-beijing.aliyuncs.com/image/image-20200423000106243.png)
 
-28. 点击完成配置
+27. 点击完成配置
 
 ![image-20200423000146091](https://cxhello.oss-cn-beijing.aliyuncs.com/image/image-20200423000146091.png)
 
-29. 选择汉语，点击前进
+28. 选择汉语，点击前进
 
 ![image-20200423000239747](https://cxhello.oss-cn-beijing.aliyuncs.com/image/image-20200423000239747.png)
 
 ![image-20200423000332175](https://cxhello.oss-cn-beijing.aliyuncs.com/image/image-20200423000332175.png)
 
-30. 隐私，默认
+29. 隐私，默认
 
 ![image-20200423000406654](https://cxhello.oss-cn-beijing.aliyuncs.com/image/image-20200423000406654.png)
 
-31. 时区选择上海
+30. 时区选择上海
 
 ![image-20200423000436566](https://cxhello.oss-cn-beijing.aliyuncs.com/image/image-20200423000436566.png)
 
-32. 在线账号，选择跳过
+31. 在线账号，选择跳过
 
 ![image-20200423000503969](https://cxhello.oss-cn-beijing.aliyuncs.com/image/image-20200423000503969.png)
 
-33. 设置账号
+32. 设置账号
 
 ![image-20200423000556722](https://cxhello.oss-cn-beijing.aliyuncs.com/image/image-20200423000556722.png)
 
 ![image-20200423000632452](https://cxhello.oss-cn-beijing.aliyuncs.com/image/image-20200423000632452.png)
 
-34. 完成，点击右上角注销，使用root账号登录
+33. 完成，点击右上角注销，使用root账号登录
 
 ![image-20200423000752406](https://cxhello.oss-cn-beijing.aliyuncs.com/image/image-20200423000752406.png)
 
