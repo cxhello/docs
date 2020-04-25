@@ -1,4 +1,5 @@
 - Java
+  - [Java基础](article/Java/Java基础.md)
   - [单例模式](article/Java/单例模式.md)
 - 数据库
   - [MySQL安装与配置](article/MySQL/MySQL安装与配置.md)
