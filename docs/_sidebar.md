@@ -5,6 +5,8 @@
   - [MySQL安装与配置](article/MySQL/MySQL安装与配置.md)
 - 框架
   - [SpringBoot](article/frame/springboot.md)
+- 中间件
+  - [zookeeper安装与配置](article/Middleware/zookeeper安装与配置.md)
 - Git
   - [Git常用命令](article/git/Git常用命令.md)
   - [GitHub搜索](article/git/GitHub搜索.md)
