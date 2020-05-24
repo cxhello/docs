@@ -14,6 +14,7 @@
 - Linux
   - [虚拟机安装CentOS7](article/Linux/虚拟机安装CentOS7.md)
   - [CentOS7安装Maven](article/Linux/CentOS7安装Maven.md)
+  - [Jenkins安装](article/Linux/jenkins安装.md)
   - [docker](article/Linux/docker.md)
   - [Linux常用命令](article/Linux/Linux常用命令.md)
 - Nginx
