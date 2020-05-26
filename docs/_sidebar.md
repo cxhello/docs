@@ -14,19 +14,18 @@
   - [Git常用命令](article/git/Git常用命令.md)
   - [GitHub搜索](article/git/GitHub搜索.md)
 - Linux
-  - [虚拟机安装CentOS7](article/Linux/虚拟机安装CentOS7.md)
+  - [虚拟机安装Linux](article/Linux/虚拟机安装Linux.md)
   
   - [yum源配置](article/Linux/yum源配置.md)
   
   - [Linux常用命令](article/Linux/Linux常用命令.md)
   
-  - [docker](article/Linux/docker.md)
+  - [Docker环境安装](article/Linux/docker环境安装.md)
   
-  - [CentOS7安装Maven](article/Linux/CentOS7安装Maven.md)
+  - [Maven安装](article/Linux/Maven安装.md)
   
-  - [Jenkins安装](article/Linux/jenkins安装.md)
+  - [Jenkins环境安装](article/Linux/jenkins环境安装.md)
   
-    
 - Nginx
   
   - [Nginx安装与配置](article/Nginx/Nginx安装与配置.md)
