@@ -22,7 +22,7 @@
   
   - [Docker环境安装](article/Linux/docker环境安装.md)
   
-  - [Maven安装](article/Linux/Maven安装.md)
+  - [Maven安装](article/Linux/Maven工具安装.md)
   
   - [Jenkins环境安装](article/Linux/jenkins环境安装.md)
   
