@@ -11,6 +11,9 @@
   - [kafka安装与配置](article/环境安装/kafka安装与配置.md)
   - [Jenkins安装与配置](article/环境安装/jenkins安装与配置.md)
   - [Node.js安装与配置](article/环境安装/Node.js压缩版安装与配置.md)
+  - [Elasticsearch安装与配置](article/环境安装/Elasticsearch安装与配置.md)
+  - [Kibana的安装与界面快速浏览](article/环境安装/Kibana的安装与界面快速浏览.md)
+  - [Logstash安装与导入数据](article/环境安装/Logstash安装与导入数据.md)
 - 必备知识
 
   - [Java基础](article/必备知识/Java基础.md)
