@@ -22,4 +22,5 @@
   - [Linux常用命令](article/必备知识/Linux常用命令.md)
   - [Git常用命令](article/必备知识/Git常用命令.md)
   - [GitHub搜索](article/必备知识/GitHub搜索.md)
+  - [MySQL索引](article/必备知识/MySQL索引.md)
   - [Redis基础](article/必备知识/Redis基础.md)
