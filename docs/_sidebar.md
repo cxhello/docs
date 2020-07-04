@@ -4,6 +4,7 @@
   - [docker环境安装](article/环境安装/docker.md)
   - [Git工具安装](article/环境安装/Git工具安装.md)
   - [Maven工具安装](article/环境安装/CentOS7安装Maven.md)
+  - [Gradle工具安装-Windows](article/环境安装/Gradle安装与配置.md)
   - [MySQL安装与配置](article/环境安装/MySQL安装与配置.md)
   - [Redis安装与配置](article/环境安装/Redis安装与配置.md)
   - [Nginx安装与配置](article/环境安装/Nginx安装与配置.md)
