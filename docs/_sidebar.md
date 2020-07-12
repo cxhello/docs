@@ -2,6 +2,7 @@
   - [虚拟机安装CentOS7](article/环境安装/虚拟机安装CentOS7.md)
   - [yum源配置](article/环境安装/yum源配置.md)
   - [docker环境安装](article/环境安装/docker.md)
+  - [Java安装与配置](article/环境安装/Java安装与配置.md)
   - [Git工具安装](article/环境安装/Git工具安装.md)
   - [Maven工具安装](article/环境安装/CentOS7安装Maven.md)
   - [Gradle工具安装-Windows](article/环境安装/Gradle安装与配置.md)
