@@ -1,18 +1,19 @@
-- 环境安装
+- Windows环境安装
   - [虚拟机安装CentOS7](article/环境安装/虚拟机安装CentOS7.md)
+  - [Gradle安装与配置](article/环境安装/Gradle安装与配置.md)
+  - [Node.js安装与配置](article/环境安装/Node.js压缩版安装与配置.md)
+- Linux环境安装
   - [yum源配置](article/环境安装/yum源配置.md)
   - [docker环境安装](article/环境安装/docker.md)
   - [Java安装与配置](article/环境安装/Java安装与配置.md)
   - [Git工具安装](article/环境安装/Git工具安装.md)
   - [Maven工具安装](article/环境安装/CentOS7安装Maven.md)
-  - [Gradle工具安装-Windows](article/环境安装/Gradle安装与配置.md)
   - [MySQL安装与配置](article/环境安装/MySQL安装与配置.md)
   - [Redis安装与配置](article/环境安装/Redis安装与配置.md)
   - [Nginx安装与配置](article/环境安装/Nginx安装与配置.md)
   - [zookeeper安装与配置](article/环境安装/zookeeper安装与配置.md)
   - [kafka安装与配置](article/环境安装/kafka安装与配置.md)
   - [Jenkins安装与配置](article/环境安装/jenkins安装与配置.md)
-  - [Node.js安装与配置](article/环境安装/Node.js压缩版安装与配置.md)
   - [Elasticsearch安装与配置](article/环境安装/Elasticsearch安装与配置.md)
   - [Kibana的安装与界面快速浏览](article/环境安装/Kibana的安装与界面快速浏览.md)
   - [Logstash安装与导入数据](article/环境安装/Logstash安装与导入数据.md)
