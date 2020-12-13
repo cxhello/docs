@@ -17,7 +17,6 @@
   - [Elasticsearch安装与配置](article/环境安装/Elasticsearch安装与配置.md)
   - [Kibana的安装与界面快速浏览](article/环境安装/Kibana的安装与界面快速浏览.md)
   - [Logstash安装与导入数据](article/环境安装/Logstash安装与导入数据.md)
-  - [初识RocketMQ](article/环境安装/初识RocketMQ.md)
 - 必备知识
   - [Java基础](article/必备知识/Java基础.md)
   - [单例模式](article/必备知识/单例模式.md)
