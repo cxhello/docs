@@ -66,7 +66,26 @@ systemctl list-unit-files | grep enable
 systemctl list-unit-files | grep docker
 ```
 
-
+```bash
+# 查看防火墙状态
+firewall-cmd --state
+systemctl status firewalld.service
+# 开启防火墙
+systemctl start firewalld.service
+# 关闭防火墙
+systemctl stop firewalld.service
+# 允许防火墙开机启动
+systemctl enable firewalld.service
+# 禁止防火墙开机启动
+systemctl disable firewalld.service
+# 将指定端口配置到防护墙规则中
+firewall-cmd --zone=public --add-port=端口号/tcp --permanent
+# 重新加载防火墙
+firewall-cmd --reload
+# 关闭Selinux
+vim /etc/sysconfig/selinux
+SELINUX＝disabled
+```
 
 ### 二、性能评估
 
