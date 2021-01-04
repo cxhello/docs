@@ -2,12 +2,14 @@
 
 ```bash
 git init
+git config --global user.name  "username"  
+git config --global user.email  "email"
 ```
 
 ###### 2.克隆仓库到本地
 
 ```bash
-git clone https://github.com/cxhello/gmall.git
+git clone https://github.com/cxhello/springboot-admin.git
 ```
 
 ###### 3. 把从来没有被标记过的文件放入暂存区 
