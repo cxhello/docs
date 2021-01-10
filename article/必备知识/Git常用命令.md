@@ -158,3 +158,12 @@ git tag –a v1.0 –m '备注内容'
 git tag -d v1.0
 git push origin -d v1.0
 ```
+
+###### 24.本地及远程回退
+
+```bash
+git log --oneline  查看提交历史
+git reset --hard 版本号  本地版本回退
+git push origin HEAD --force  远程版本回退
+```
+
