@@ -2,6 +2,7 @@
   - [虚拟机安装CentOS7](article/环境安装/虚拟机安装CentOS7.md)
   - [Gradle安装与配置](article/环境安装/Gradle安装与配置.md)
   - [Node.js安装与配置](article/环境安装/Node.js压缩版安装与配置.md)
+  - [MySQL安装与配置](article/环境安装/Windows安装MySQL.md)
 - Linux环境安装
   - [yum源配置](article/环境安装/yum源配置.md)
   - [docker环境安装](article/环境安装/docker.md)
