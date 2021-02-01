@@ -1,10 +1,10 @@
-# 1.下载
+### 1.下载
 
 > 下载地址：http://nginx.org/en/download.html
 
 ![image-20200414222458676](https://cxhello.oss-cn-beijing.aliyuncs.com/image/image-20200414222458676.png)
 
-# 2.解压缩
+### 2.解压缩
 
 将它拷贝到我们的Linux目录/opt下
 
@@ -18,7 +18,7 @@
 
 `cd /opt/nginx-1.16.1/`
 
-# 3. 安装
+### 3. 安装
 
 前提：查看系统中是否安装了gcc、pcre-devel、zlib-devel、openssl-devel
 
