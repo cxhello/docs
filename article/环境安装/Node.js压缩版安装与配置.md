@@ -1,10 +1,10 @@
-# 1.下载
+### 1.下载
 
 > 下载地址：https://nodejs.org/zh-cn/download/
 
 ![image-20200412201424333](https://cxhello.oss-cn-beijing.aliyuncs.com/image/image-20200412201424333.png)
 
-# 2.解压缩
+### 2.解压缩
 
 将文件解压到要安装的位置，并新建两个目录
 
@@ -14,7 +14,7 @@ node-cache：npm缓存路径
 
 ![image-20200412202420524](https://cxhello.oss-cn-beijing.aliyuncs.com/image/image-20200412202420524.png)
 
-# 3.配置环境变量
+### 3.配置环境变量
 
 将node.exe所在的目录添加到path环境变量，这样我们在使用命令行时就可以在任意路径使用node命令了，同时该目录下有一个npm.cmd文件，打开文件其实就是将我们的npm命令映射到node.exe npm-cli.js，由于存在该映射所以只要把node.exe 所在的目录添加到path环境变量，也可以在任何目录下执行npm install了。
 
