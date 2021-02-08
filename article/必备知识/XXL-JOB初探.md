@@ -222,6 +222,58 @@ public class ExampleXxlJob {
 
 发现已经在执行了。
 
-### 3.执行器集群
+### 3.调度中心集群
 
-未完待续
+调用中心集群搭建非常简单，多个项目的DB保持一致，集群时钟保持一致，到时候可以使用 nginx 对多个调用中心做负载均衡。
+
+### 4.执行器集群
+
+我们项目如果在集群化部署的情况下可以选择配置路由策略，调度中心会根据路由策略将调度请求发送给具体的一个执行器，我们选择轮询进行测试。路由策略包括：
+
+```
+- FIRST（第一个）：固定选择第一个机器；
+- LAST（最后一个）：固定选择最后一个机器；
+- ROUND（轮询）：；
+- RANDOM（随机）：随机选择在线的机器；
+- CONSISTENT_HASH（一致性HASH）：每个任务按照Hash算法固定选择某一台机器，且所有任务均匀散列在不同机器上。
+- LEAST_FREQUENTLY_USED（最不经常使用）：使用频率最低的机器优先被选举；
+- LEAST_RECENTLY_USED（最近最久未使用）：最久未使用的机器优先被选举；
+- FAILOVER（故障转移）：按照顺序依次进行心跳检测，第一个心跳检测成功的机器选定为目标执行器并发起调度；
+- BUSYOVER（忙碌转移）：按照顺序依次进行空闲检测，第一个空闲检测成功的机器选定为目标执行器并发起调度；
+- SHARDING_BROADCAST(分片广播)：广播触发对应集群中所有机器执行一次任务，同时系统自动传递分片参数；可根据分片参数开发分片任务；
+```
+
+搭建非常简单，只需要注意两点
+
+1. 执行器回调地址（xxl.job.admin.addresses）需要保持一致；执行器根据该配置进行执行器自动注册等操作；
+2. 同一个执行器集群内AppName（xxl.job.executor.appname）需要保持一致；调度中心根据该配置动态发现不同集群的在线执行器列表。
+
+![image-20210208222428340](https://cxhello.oss-cn-beijing.aliyuncs.com/image/image-20210208222428340.png)
+
+由于我是在一台机器上搭建，所以项目端口，和执行器端口都要唯一，修改完后，可将项目编译打包部署。启动之后，去调度中心修改路由策略为轮训，再启动任务调度，然后就可以去查看调度日志了。
+
+![image-20210208223048306](https://cxhello.oss-cn-beijing.aliyuncs.com/image/image-20210208223048306.png)
+
+![image-20210208223203013](https://cxhello.oss-cn-beijing.aliyuncs.com/image/image-20210208223203013.png)
+
+![image-20210208223258397](https://cxhello.oss-cn-beijing.aliyuncs.com/image/image-20210208223258397.png)
+
+这样执行器集群就搭建成功了。
+
+`如果你项目中的定时任务有指定集群中的某台机器去执行的需求，可以为该任务绑定一个单独的执行器（执行器支持复用AppName），该执行器手动指定固定的IP地址，我也是从官方 issues 上看到的此方案。`
+
+> https://github.com/xuxueli/xxl-job/issues/216
+
+![image-20210208225241116](https://cxhello.oss-cn-beijing.aliyuncs.com/image/image-20210208225241116.png)
+
+![image-20210208225457655](https://cxhello.oss-cn-beijing.aliyuncs.com/image/image-20210208225457655.png)
+
+![image-20210208225616391](https://cxhello.oss-cn-beijing.aliyuncs.com/image/image-20210208225616391.png)
+
+现在我们就看到只有 8081 端口的执行器在执行任务，这样就可以指定执行器了。
+
+> 执行器示例代码地址：https://github.com/cxhello/xxl-job-example
+
+### 参考文章
+
+> https://www.xuxueli.com/xxl-job/
