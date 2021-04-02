@@ -33,4 +33,5 @@
   - [Nginx 部署 Ant Design Pro](article/必备知识/Nginx部署AntDesignPro.md)
   - [Stream流常用方法](article/必备知识/Stream流常用方法.md)
   - [Maven 集成 CheckStyle](article/必备知识/Maven集成CheckStyle.md)
+  - [项目集成 XXL-JOB](article/必备知识/XXL-JOB初探.md)
   - [Springboot 导出 PDF文件](article/必备知识/Springboot导出PDF文件.md)
