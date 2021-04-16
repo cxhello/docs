@@ -36,3 +36,4 @@
   - [项目集成 XXL-JOB](article/必备知识/XXL-JOB初探.md)
   - [Springboot 导出 PDF文件](article/必备知识/Springboot导出PDF文件.md)
   - [URL下载文件工具类](article/必备知识/URL下载文件工具类.md)
+  - [Vue发送请求下载文件](article/必备知识/Vue发送请求下载文件.md)
