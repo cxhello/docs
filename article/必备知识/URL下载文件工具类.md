@@ -40,8 +40,8 @@ public class DownloadUtil {
             int bytesRead;
             while ((bytesRead = bis.read(bytes)) != -1) {
                 bos.write(bytes, 0, bytesRead);
-                response.flushBuffer();
             }
+            response.flushBuffer();
         } catch (IOException e) {
             logger.error("System error", e);
         } finally {
