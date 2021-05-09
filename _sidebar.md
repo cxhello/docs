@@ -18,6 +18,7 @@
   - [Elasticsearch安装与配置](article/环境安装/Elasticsearch安装与配置.md)
   - [Kibana的安装与界面快速浏览](article/环境安装/Kibana的安装与界面快速浏览.md)
   - [Logstash安装与导入数据](article/环境安装/Logstash安装与导入数据.md)
+  - [Node.js安装与配置](article/环境安装/Node.js安装与配置.md)
 - 必备知识
   - [Java基础](article/必备知识/Java基础.md)
   - [单例模式](article/必备知识/单例模式.md)
