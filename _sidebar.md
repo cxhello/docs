@@ -40,3 +40,4 @@
   - [Vue发送请求下载文件](article/必备知识/Vue发送请求下载文件.md)
   - [窗口移到屏幕边上拉不出来](article/必备知识/窗口移到屏幕边上拉不出来.md)
   - [恢复docker容器数据](article/必备知识/恢复docker容器数据.md)
+  - [Java中，为什么byte类型的取值范围为-128~127?](article/必备知识/byte.md)
