@@ -30,7 +30,14 @@
       },
 	  plugins: [
       	EditOnGithubPlugin.create('https://github.com/cxhello/docs/blob/master/')
-	  ]
+	  ],
+	  beian: {
+        ICP: "",
+        NISMSP: {
+            number: "蒙ICP备17005703号-2",
+            url: "https://beian.miit.gov.cn/#/Integrated/index",
+        },
+	  },
     }
   </script>
   <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
@@ -40,5 +47,7 @@
   <script src="//unpkg.com/docsify-copy-code"></script>
   <!--字数统计-->
   <script src="//unpkg.com/docsify-count/dist/countable.js"></script>
+  <!--备案插件-->
+  <script src="https://cdn.jsdelivr.net/npm/docsify-beian@latest/dist/beian.min.js"></script>
 </body>
 </html>
